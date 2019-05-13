@@ -11,3 +11,29 @@ Green: #DDE2CC
 Teal: #B1D3C7
 Blue: #8BC1BA
 */
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.navbar{
+    background-color: #b1d3c7;
+}
+
+
+
+
+/*Table rules*/
+#designtable tr td{
+    vertical-align:auto;
+    text-align:center;
+    padding: 10px;
+    border: black 1px solid;
+}
+
+#designtable th{
+    border-bottom: 2px solid black;
+    text-align:center;
+}
+
