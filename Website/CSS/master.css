@@ -12,11 +12,19 @@ Teal: #B1D3C7
 Blue: #8BC1BA
 */
 
+body {
+    background-image: url("../graphics/background1.jpg");
+    background-position: left;
+    background-size: cover;
+    background-repeat: space;
+    min-height: calc(100vh);
+}
+
 .container {
     font-family: 'Times New Roman', Times, serif;
     background-color: #DDE2CC;
+    /*padding-bottom: 17%;*/
 }
-
 
 .navbar{
     background-color: #b1d3c7;
@@ -35,6 +43,7 @@ blockquote {
     background-color: #FFEED8;
     border-radius: 15px;
     padding: 10px;
+    text-indent: 15px;
 }
 
 
@@ -91,4 +100,10 @@ legend{
 .tftable th{
     text-align: center;
     padding: 5px;
+}
+
+.tftable {
+    margin: auto;
+    width: 50% !important;
+    background-color: #FFCFC9;
 }
