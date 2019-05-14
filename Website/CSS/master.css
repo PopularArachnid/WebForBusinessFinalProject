@@ -12,8 +12,9 @@ Teal: #B1D3C7
 Blue: #8BC1BA
 */
 
-body{
+.container {
     font-family: 'Times New Roman', Times, serif;
+    background-color: #DDE2CC;
 }
 
 
@@ -23,11 +24,44 @@ body{
 
 
 
+.title, h3{
+    text-align:center;
+
+}
+
+blockquote {
+    font-size: 14px;
+    border: solid 1px #FFEED8;
+    background-color: #FFEED8;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+
+.card{
+    margin-bottom: 20px;
+}
+
+.card-body {
+    background-color: #B1D3C7;
+}
+
+.card-link {
+    background-color: #8BC1BA;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+
+
+
+
 
 /*Table rules*/
-#designtable tr td{
-    vertical-align:auto;
-    text-align:center;
+#designtable tr td {
+    vertical-align: auto;
+    text-align: center;
     padding: 10px;
     border: black 1px solid;
 }
@@ -37,3 +71,14 @@ body{
     text-align:center;
 }
 
+.tftable tr td{
+    vertical-align: auto;
+    text-align: center;
+    padding: 10px;
+    border: black 1px red;
+}
+
+.tftable th{
+    text-align: center;
+    padding: 5px;
+}
